@@ -10,6 +10,6 @@ The results and observations for the various models are outlined below.  Because
 ### Naive Random Oversampling
 Balance Accuracy Score: 0.61439<br>
 Confusion Matrix:<br>
-<img src=NaiveRandomOversamplingCM.png></img><br>
+<img src=Resources\NaiveRandomOversamplingCM.png></img><br>
 Imbalanced Classification Report:<br>
-<img src=NaiveRandomOversamplingICR.png></img><br>
+<img src=Resources\NaiveRandomOversamplingICR.png></img><br>
