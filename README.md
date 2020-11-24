@@ -10,14 +10,14 @@ The results and observations for the various models are outlined below.  Because
 ### Oversampling
 
 #### Naive Random Oversampling
-Balance Accuracy Score: 0.61439<br>
+Balanced Accuracy Score: 0.61439<br>
 Confusion Matrix:<br>
 <img src=Resources\NaiveRandomOversamplingCM.png></img><br>
 Imbalanced Classification Report:<br>
 <img src=Resources\NaiveRandomOversamplingICR.png></img><br>
 
 #### SMOTE (Synthetic Minority Oversampling Technique) Oversampling
-Balance Accuracy Score: 0.64573<br>
+Balanced Accuracy Score: 0.64573<br>
 Confusion Matrix:<br>
 <img src=Resources\SMOTE_CM.png></img><br>
 Imbalanced Classification Report:<br>
@@ -26,8 +26,20 @@ Imbalanced Classification Report:<br>
 ### Undersampling
 
 #### ClusterCentroids
-Balance Accuracy Score: 0.583145<br>
+Balanced Accuracy Score: 0.583145<br>
 Confusion Matrix:<br>
 <img src=Resources\CC_CM.png></img><br>
 Imbalanced Classification Report:<br>
 <img src=Resources\CC_ICR.png></img><br>
+
+
+### Comination Sampling
+
+#### SMOTEENN (SMOTE with Edited Nearest Neighbor) Sampling
+Balanced Accuracy Score: 0.54044<br>
+Confusion Matrix:<br>
+<img src=Resources\SMOTEENN_CM.png></img><br>
+Imbalanced Classification Report:<br>
+<img src=Resources\SMOTEENN_ICR.png></img><br>
+
+
