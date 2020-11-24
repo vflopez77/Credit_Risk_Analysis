@@ -10,10 +10,10 @@ The results and observations for the various models are outlined below.  Because
 ### Oversampling
 
 #### Naive Random Oversampling
-Balanced Accuracy Score: 0.61439<br>
-Confusion Matrix:<br>
+- Balanced Accuracy Score: 0.61439<br>
+- Confusion Matrix:<br>
 <img src=Resources\NaiveRandomOversamplingCM.png></img><br>
-Imbalanced Classification Report:<br>
+- Imbalanced Classification Report:<br>
 <img src=Resources\NaiveRandomOversamplingICR.png></img><br>
 
 #### SMOTE (Synthetic Minority Oversampling Technique) Oversampling
