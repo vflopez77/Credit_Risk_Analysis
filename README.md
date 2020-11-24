@@ -26,3 +26,8 @@ Imbalanced Classification Report:<br>
 ### Undersampling
 
 #### ClusterCentroids
+Balance Accuracy Score: 0.583145<br>
+Confusion Matrix:<br>
+<img src=Resources\CC_CM.png></img><br>
+Imbalanced Classification Report:<br>
+<img src=Resources\CC_ICR.png></img><br>
