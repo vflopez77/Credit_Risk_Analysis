@@ -45,16 +45,22 @@ Imbalanced Classification Report:<br>
 ### Ensemble Learners
 
 #### Random Forest Classifier
-Balanced Accuracy Score:0.66632<br>
+Balanced Accuracy Score: 0.66632<br>
 Confusion Matrix:<br>
 <img src=Resources\RF_CM.png></img><br>
 Imbalanced Classification Report:<br>
 <img src=Resources\RF_ICR.png></img><br>
 
 #### Easy Ensemble Adaptive Boost Classifier
-Balanced Accuracy Score0.68378<br>
+Balanced Accuracy Score: 0.68378<br>
 Confusion Matrix:<br>
 <img src=Resources\EE_CM.png></img><br>
 Imbalanced Classification Report:<br>
 <img src=Resources\EE_ICR.png></img><br>
+
+## Summary
+There are some clear lessons to be drawn from this analysis.  Of the over- and under-sampling models, <b>SMOTE</b> did relatively well with a Balanced Accuracy of 0.65 and a Combined Specificity (imortant for unbalanced data sets) of 0.61.
+The real standout, however, was the <b>Easy Ensemble Adaptive Boost Classifier</b> with a Balanced Accuracy of 0.68 and a Combined Specificity of 0.63.
+
+
 
