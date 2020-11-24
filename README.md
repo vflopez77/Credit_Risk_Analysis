@@ -33,7 +33,7 @@ Imbalanced Classification Report:<br>
 <img src=Resources\CC_ICR.png></img><br>
 
 
-### Comination Sampling
+### Combination Sampling
 
 #### SMOTEENN (SMOTE with Edited Nearest Neighbor) Sampling
 Balanced Accuracy Score: 0.54044<br>
@@ -42,4 +42,11 @@ Confusion Matrix:<br>
 Imbalanced Classification Report:<br>
 <img src=Resources\SMOTEENN_ICR.png></img><br>
 
+### Ensemble Learners
 
+#### Random Forest Classifier
+Balanced Accuracy Score:0.66632<br>
+Confusion Matrix:<br>
+<img src=Resources\RF_CM.png></img><br>
+Imbalanced Classification Report:<br>
+<img src=Resources\RF_ICR.png></img><br>
