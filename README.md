@@ -50,3 +50,11 @@ Confusion Matrix:<br>
 <img src=Resources\RF_CM.png></img><br>
 Imbalanced Classification Report:<br>
 <img src=Resources\RF_ICR.png></img><br>
+
+#### Easy Ensemble Adaptive Boost Classifier
+Balanced Accuracy Score0.68378<br>
+Confusion Matrix:<br>
+<img src=Resources\EE_CM.png></img><br>
+Imbalanced Classification Report:<br>
+<img src=Resources\EE_ICR.png></img><br>
+
