@@ -7,9 +7,22 @@ A number of Machine Mearning models are tested to see which ones produced the be
 ## Results
 The results and observations for the various models are outlined below.  Because the data set set is unbalanced i.e. there are far more low-risk records than high-risk ones, we will use oversampling and undersampling methods to find the best fit.
 
-### Naive Random Oversampling
+### Oversampling
+
+#### Naive Random Oversampling
 Balance Accuracy Score: 0.61439<br>
 Confusion Matrix:<br>
-<img src=NaiveRandomOversamplingCM.png></img><br>
+<img src=Resources\NaiveRandomOversamplingCM.png></img><br>
 Imbalanced Classification Report:<br>
-<img src=NaiveRandomOversamplingICR.png></img><br>
+<img src=Resources\NaiveRandomOversamplingICR.png></img><br>
+
+#### SMOTE (Synthetic Minority Oversampling Technique) Oversampling
+Balance Accuracy Score: 0.64573<br>
+Confusion Matrix:<br>
+<img src=Resources\SMOTE_CM.png></img><br>
+Imbalanced Classification Report:<br>
+<img src=Resources\SMOTE_ICR.png></img><br>
+
+### Undersampling
+
+#### ClusterCentroids
