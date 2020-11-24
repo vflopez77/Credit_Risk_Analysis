@@ -17,45 +17,45 @@ The results and observations for the various models are outlined below.  Because
 <img src=Resources\NaiveRandomOversamplingICR.png></img><br>
 
 #### SMOTE (Synthetic Minority Oversampling Technique) Oversampling
-Balanced Accuracy Score: 0.64573<br>
-Confusion Matrix:<br>
+- Balanced Accuracy Score: 0.64573<br>
+- Confusion Matrix:<br>
 <img src=Resources\SMOTE_CM.png></img><br>
-Imbalanced Classification Report:<br>
+- Imbalanced Classification Report:<br>
 <img src=Resources\SMOTE_ICR.png></img><br>
 
 ### Undersampling
 
 #### ClusterCentroids
-Balanced Accuracy Score: 0.583145<br>
-Confusion Matrix:<br>
+- Balanced Accuracy Score: 0.583145<br>
+- Confusion Matrix:<br>
 <img src=Resources\CC_CM.png></img><br>
-Imbalanced Classification Report:<br>
+- Imbalanced Classification Report:<br>
 <img src=Resources\CC_ICR.png></img><br>
 
 
 ### Combination Sampling
 
 #### SMOTEENN (SMOTE with Edited Nearest Neighbor) Sampling
-Balanced Accuracy Score: 0.54044<br>
-Confusion Matrix:<br>
+- Balanced Accuracy Score: 0.54044<br>
+- Confusion Matrix:<br>
 <img src=Resources\SMOTEENN_CM.png></img><br>
-Imbalanced Classification Report:<br>
+- Imbalanced Classification Report:<br>
 <img src=Resources\SMOTEENN_ICR.png></img><br>
 
 ### Ensemble Learners
 
 #### Random Forest Classifier
-Balanced Accuracy Score: 0.66632<br>
-Confusion Matrix:<br>
+- Balanced Accuracy Score: 0.66632<br>
+- Confusion Matrix:<br>
 <img src=Resources\RF_CM.png></img><br>
-Imbalanced Classification Report:<br>
+- Imbalanced Classification Report:<br>
 <img src=Resources\RF_ICR.png></img><br>
 
 #### Easy Ensemble Adaptive Boost Classifier
-Balanced Accuracy Score: 0.68378<br>
-Confusion Matrix:<br>
+- Balanced Accuracy Score: 0.68378<br>
+- Confusion Matrix:<br>
 <img src=Resources\EE_CM.png></img><br>
-Imbalanced Classification Report:<br>
+- Imbalanced Classification Report:<br>
 <img src=Resources\EE_ICR.png></img><br>
 
 ## Summary
