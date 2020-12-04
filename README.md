@@ -59,6 +59,8 @@ The results and observations for the various models are outlined below.  Because
 <img src=Resources\EE_ICR.png></img><br>
 
 ## Summary
+### Over- and Under-Sampling Models
+- SMOTE did relatively well with a Balanced Accuracy of 0.65 and a Combined Specificity (imortant for unbalanced data sets) of 0.61.
 There are some clear lessons to be drawn from this analysis.  Of the over- and under-sampling models, <b>SMOTE</b> did relatively well with a Balanced Accuracy of 0.65 and a Combined Specificity (imortant for unbalanced data sets) of 0.61.
 The real standout, however, was the <b>Easy Ensemble Adaptive Boost Classifier</b> with a Balanced Accuracy of 0.68 and a Combined Specificity of 0.63.<br>
 More work needs to be done to further increase the accuracy of this model, e.g. by refining or adding new features to the data, but this is a good start.
