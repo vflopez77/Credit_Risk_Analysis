@@ -69,7 +69,7 @@ The results and observations for the various models are outlined below.  Because
 - <b>Random Forest Classifier</b> did better than any of the Over- and Under-sampling models with a Balanced Accuracy Score: 0.67, Precision of 1.0, Recall of 1.0, and Specificity of 0.34.
 - <b>Easy Ensemble Adaptive Boost Classifier</b> did better than any of the other models with a Balanced Accuracy of 0.68, Precision of 0.99, Recall of 0.73 and a Specificity of 0.63.
 
-<i><b>*(Note that Precision in such an unbalanced data set is not particularly significant).</b></i>
+<i>* (Note that <b>Precision</b> in such an unbalanced data set is not particularly significant).</i>
 
 ### Recommendations
 - Although none of these models produced results over 70% accurate, the <b>Easy Ensemble Adaptive Boost Classifier</b> shows the most potential for accuracy and should be utilized.
