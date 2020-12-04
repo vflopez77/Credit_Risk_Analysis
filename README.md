@@ -25,7 +25,7 @@ The results and observations for the various models are outlined below.  Because
 
 ### Undersampling
 
-#### ClusterCentroids
+#### Cluster Centroids
 - Balanced Accuracy Score: 0.583145<br>
 - Confusion Matrix:<br>
 <img src=Resources\CC_CM.png></img><br>
@@ -60,10 +60,15 @@ The results and observations for the various models are outlined below.  Because
 
 ## Summary
 ### Over- and Under-Sampling Models
-- SMOTE did relatively well with a Balanced Accuracy of 0.65 and a Combined Specificity (imortant for unbalanced data sets) of 0.61.
-There are some clear lessons to be drawn from this analysis.  Of the over- and under-sampling models, <b>SMOTE</b> did relatively well with a Balanced Accuracy of 0.65 and a Combined Specificity (imortant for unbalanced data sets) of 0.61.
-The real standout, however, was the <b>Easy Ensemble Adaptive Boost Classifier</b> with a Balanced Accuracy of 0.68 and a Combined Specificity of 0.63.<br>
-More work needs to be done to further increase the accuracy of this model, e.g. by refining or adding new features to the data, but this is a good start.
+- <b>SMOTE</b> did relatively well with a Balanced Accuracy of 0.65 and a Combined Specificity (imortant for unbalanced data sets) of 0.61.
+- <b>SMOTEENN</b> (SMOTE with Edited Nearest Neighbor) was the worst of the group with a Balanced Accuracy Score of 0.54.
+- <b>Naive Random Oversampling</b> was the second best in this group with a Balanced Accuracy Score of 0.62.
+- <b>Cluster Centroids Undersampling</b> was the second worst in this group with Balanced Accuracy Score of 0.58.
+
+### Ensemble Learners
+- <b>Random Forest Classifier</b> sdid better than any of the Over- and Under-sampling models with a Balanced Accuracy Score: 0.67
+- <b>Easy Ensemble Adaptive Boost Classifier</b> did better than any of the other models with a Balanced Accuracy of 0.68 and a Combined Specificity of 0.63.
+
 
 
 
