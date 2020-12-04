@@ -60,14 +60,17 @@ The results and observations for the various models are outlined below.  Because
 
 ## Summary
 ### Over- and Under-Sampling Models
-- <b>SMOTE</b> did relatively well with a Balanced Accuracy of 0.65 and a Combined Specificity (imortant for unbalanced data sets) of 0.61.
-- <b>SMOTEENN</b> (SMOTE with Edited Nearest Neighbor) was the worst of the group with a Balanced Accuracy Score of 0.54.
-- <b>Naive Random Oversampling</b> was the second best in this group with a Balanced Accuracy Score of 0.62.
-- <b>Cluster Centroids Undersampling</b> was the second worst in this group with Balanced Accuracy Score of 0.58.
+- <b>SMOTE</b> did relatively well with a Balanced Accuracy of 0.65, Precision of 0.99, Recall of 0.68 and a Specificity (important for unbalanced data sets) of 0.61.
+- <b>SMOTEENN</b> (SMOTE with Edited Nearest Neighbor) was the worst of the group with a Balanced Accuracy Score of 0.54, Precision of 0.99, Recall of 0.59, and Specificity of 0.49.
+- <b>Naive Random Oversampling</b> was the second best in this group with a Balanced Accuracy Score of 0.62, Precision of 0.99, Recall of 0.67, and specificity of 0.56.
+- <b>Cluster Centroids Undersampling</b> was the second worst in this group with Balanced Accuracy Score of 0.58, Precision of 0.99, recall of 0.39, and Specificity of 0.78.
 
 ### Ensemble Learners
-- <b>Random Forest Classifier</b> sdid better than any of the Over- and Under-sampling models with a Balanced Accuracy Score: 0.67
-- <b>Easy Ensemble Adaptive Boost Classifier</b> did better than any of the other models with a Balanced Accuracy of 0.68 and a Combined Specificity of 0.63.
+- <b>Random Forest Classifier</b> did better than any of the Over- and Under-sampling models with a Balanced Accuracy Score: 0.67, Precision of 1.0, Recall of 1.0, and Specificity of 0.34.
+- <b>Easy Ensemble Adaptive Boost Classifier</b> did better than any of the other models with a Balanced Accuracy of 0.68, Precision of 0.99, Recall of 0.73 and a Specificity of 0.63.
+
+*(Note that Precision in such an unbalanced data set is not particularly significant).
+
 
 
 
